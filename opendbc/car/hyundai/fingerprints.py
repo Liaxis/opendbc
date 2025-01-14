@@ -578,6 +578,7 @@ FW_VERSIONS = {
       b'\xf1\x00DL3_ SCC FHCUP      1.00 1.03 99110-L2000         ',
       b'\xf1\x00DL3_ SCC FHCUP      1.00 1.03 99110-L2100         ',
       b'\xf1\x00DL3_ SCC FHCUP      1.00 1.04 99110-L2100         ',
+      b'\xf1\x00DL3_ SCC F-CUP      1.00 1.03 99110-L2100         ',
     ],
     (Ecu.eps, 0x7d4, None): [
       b'\xf1\x00DL3 MDPS C 1.00 1.01 56310-L3110 4DLAC101',
@@ -586,12 +587,14 @@ FW_VERSIONS = {
       b'\xf1\x00DL3 MDPS C 1.00 1.02 56310-L2220 4DLDC102',
       b'\xf1\x00DL3 MDPS C 1.00 1.02 56310L3220\x00 4DLAC102',
       b'\xf1\x00DL3 MDPS R 1.00 1.02 57700-L3000 4DLAP102',
+      b'\xf1\x00DL3 MDPS C 1.00 1.00 56310-L3010 4DLAC100',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00DL3 MFC  AT KOR LHD 1.00 1.04 99210-L2000 210527',
       b'\xf1\x00DL3 MFC  AT USA LHD 1.00 1.03 99210-L3000 200915',
       b'\xf1\x00DL3 MFC  AT USA LHD 1.00 1.04 99210-L3000 210208',
       b'\xf1\x00DL3 MFC  AT USA LHD 1.00 1.05 99210-L3000 211222',
+      b'\xf1\x00DL3 MFC  AT USA LHD 1.00 1.01 99210-L3000 200108',
     ],
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00DL ESC \x01 104 \x07\x12 58910-L2200',
@@ -602,6 +605,7 @@ FW_VERSIONS = {
       b'\xf1\x00DL ESC \t 100 \x06\x02 58910-L3800',
       b'\xf1\x00DL ESC \t 101 \x07\x02 58910-L3800',
       b'\xf1\x00DL ESC \t 102"\x08\x10 58910-L3800',
+      b'\xf1\x00DL ESC \x06 101 \x04\x02 58910-L3200',
     ],
   },
   CAR.KIA_K5_HEV_2020: {
